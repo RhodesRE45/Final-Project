@@ -3,7 +3,7 @@ MAX_ROW = 8
 MAX_COL = 80
 
 # Define a class to represent the seat booking application
-class SeatBookingApp:
+class SeatBookingApp: 
     def __init__(self):
         # Initialize a list to represent the seat status
         self.seat_status = [['F' for _ in range(MAX_COL + 1)] for _ in range(MAX_ROW)]  # F: Free, R: Reserved
